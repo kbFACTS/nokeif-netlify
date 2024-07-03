@@ -13,11 +13,12 @@ import {
     AiFillCustomerService,
     AiFillHome
   } from "react-icons/ai";
+import { blue, grey } from "@mui/material/colors";
 
 const Home = () => {
     return (
-        <div>
-            <div className="content-1">
+        <div className="home">
+            <div className="content-1 roundcontainer shadow">
                 <img src="nokeif-logo.svg" className="home-img"></img>
                 <div className="pdb">
                     <Linkbox id="spotify" title="Spotify" url="https://open.spotify.com/artist/3AoiNh85pj8qfchXmgeh43?si=ziPF19-ZT2mLHHpfU2t-Pw" />

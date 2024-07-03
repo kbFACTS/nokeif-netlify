@@ -19,10 +19,7 @@ const Linkbox = (props) => {
     return (
         <div>
             <div id={props.id} className="linkbox maxw-400">
-                <div className="linkbox-link">
-                    {/* <span class="icon"><AiFillHome /></span> */}
-                    <a href={props.url} target="_blank">{props.title}</a>
-                </div>
+                <a className="linkbox-link" href={props.url} target="_blank">{props.title}</a>
             </div>
         </div>
 
