@@ -1,19 +1,7 @@
-import React, { useState } from "react";
-import {
-    BrowserRouter as Router,
-    Link,
-  } from "react-router-dom";
-
-import { useMediaQuery } from "react-responsive";
-
-import {
-    AiOutlineHome,
-    AiOutlineAlignLeft,
-    AiOutlineCustomerService,
-    AiOutlineUser,
-    AiOutlineClose,
-    AiOutlineMenu
-  } from "react-icons/ai";
+// import {
+//     BrowserRouter as Router,
+//     Link,
+//   } from "react-router-dom";
 
 const Linkbox = (props) => {
     return (
