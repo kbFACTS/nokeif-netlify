@@ -22,7 +22,7 @@ const Home = () => {
                 <img alt="" src="nokeif-logo.svg" className="home-img"></img>
                 <div className="pdb">
                     <Linkbox id="spotify" title="Spotify" url="https://open.spotify.com/artist/3AoiNh85pj8qfchXmgeh43?si=ziPF19-ZT2mLHHpfU2t-Pw" />
-                    <Linkbox id="tiktok" title="TikTok" url=""/>
+                    <Linkbox id="tiktok" title="TikTok" url="https://www.tiktok.com/@nokeif"/>
                     <Linkbox id="youtube" title="YouTube" url="https://www.youtube.com/channel/UCQmoRPYiVM6dlbOPZoIBtQA"/>
                     <Linkbox id="apple" title="Apple Music" url="https://music.apple.com/us/artist/nokeif/id1478583810"/>
                 </div>
