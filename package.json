@@ -33,7 +33,6 @@
       "react-app/jest"
     ]
   },
-  "homepage": "https://kbfacts.github.io/Nokeif-react/",
   "browserslist": {
     "production": [
       ">0.2%",
