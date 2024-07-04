@@ -32,7 +32,7 @@ body {
 }
 
 .home {
-  background-image: url("/Users/KB/Documents/Sites/Nokeif-react/public/home-snap.png");
+  background-image: url("/public/home-snap.png");
   background-repeat: repeat-y;
   background-size:cover;
   padding: 50px;
