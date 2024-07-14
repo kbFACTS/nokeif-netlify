@@ -6,7 +6,7 @@
 const Linkbox = (props) => {
     return (
         <div>
-            <div id={props.id} className="linkbox maxw-400 shadow">
+            <div id={props.id} className="linkbox shadow">
                 <a className="linkbox-link" href={props.url} rel="noreferrer" target="_blank">
                     <img alt="" src={props.icon} className="icon"></img>
                     <span>{props.title}</span>
