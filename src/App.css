@@ -69,6 +69,7 @@ body {
   align-items: center;
   padding-left: 20px;
   text-decoration: none;
+  width: 100%;
 }
 
 .linkbox .linkbox-link .icon {
@@ -80,14 +81,14 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
-.linkbox .linkbox-link span {
+.linkbox .linkbox-link .link-title {
   font-size: 1.5em;
   text-align: center;
   padding-top: 16px;
   padding-bottom: 16px;
-  padding-left: 20px;
   width: 100%;
   color: var(--almost-black);
+  transform: translateX(-5%);
 }
 
 .home-img {
