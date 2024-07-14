@@ -21,10 +21,10 @@ const Home = () => {
             <div className="content-1 roundcontainer shadow">
                 <img alt="" src="nokeif-logo.svg" className="home-img"></img>
                 <div className="pdb">
-                    <Linkbox id="spotify" title="Spotify" url="https://open.spotify.com/artist/3AoiNh85pj8qfchXmgeh43?si=ziPF19-ZT2mLHHpfU2t-Pw" />
-                    <Linkbox id="tiktok" title="TikTok" url="https://www.tiktok.com/@nokeif"/>
-                    <Linkbox id="youtube" title="YouTube" url="https://www.youtube.com/channel/UCQmoRPYiVM6dlbOPZoIBtQA"/>
-                    <Linkbox id="apple" title="Apple Music" url="https://music.apple.com/us/artist/nokeif/id1478583810"/>
+                    <Linkbox icon="spotify.png" id="spotify" title="Spotify" url="https://open.spotify.com/artist/3AoiNh85pj8qfchXmgeh43?si=ziPF19-ZT2mLHHpfU2t-Pw" />
+                    <Linkbox icon="tiktok.png" id="tiktok" title="TikTok" url="https://www.tiktok.com/@nokeif"/>
+                    <Linkbox icon="youtube.png" id="youtube" title="YouTube" url="https://www.youtube.com/channel/UCQmoRPYiVM6dlbOPZoIBtQA"/>
+                    <Linkbox icon="applemusic.png" id="apple" title="Apple Music" url="https://music.apple.com/us/artist/nokeif/id1478583810"/>
                 </div>
             </div>
         </div>

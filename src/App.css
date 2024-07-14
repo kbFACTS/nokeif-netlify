@@ -56,49 +56,50 @@ body {
 }
 
 .linkbox {
-  /* background-color: var(--third-color); */
   border-radius: 50px;
-  border: 0.1px solid var(--almost-black);
-  background-color: rgb(255, 236, 239);
+  /* border: 0.1px solid var(--almost-black); */
+  /* background-color: rgb(255, 236, 239); */
+  background-color: white;
   display: flex;
   margin-top: 20px;
   margin-right: auto;
   margin-left: auto;
-  height: fit-content;
   width: 70%;
-  /* max-width: 680px; */
   transition: 0.4s;
 }
 
 .linkbox:hover {
-  border: 2px solid var(--almost-black);
+  /* border: 2px solid var(--almost-black); */
   width: 70%;
   transition: 0.4s;
 }
 
-.linkbox .linkbox-link {
-  margin-top: 0px;
-  font-weight: inherit;
+.linkbox .linkbox-link
+{
+  position: relative;
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+  text-decoration: none;
+}
+
+.linkbox .linkbox-link .icon {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 2em;
+  -webkit-font-smoothing: antialiased;
+}
+
+.linkbox .linkbox-link span {
   font-size: 1.5em;
   text-align: center;
-  cursor: pointer;
-  text-decoration: none;
-  display: flex;
-  -webkit-box-align: center;
-  align-items: center;
-  -webkit-box-pack: center;
-  justify-content: center;
-  height: auto;
-  position: relative;
   padding-top: 16px;
   padding-bottom: 16px;
   padding-left: 20px;
   padding-right: 20px;
   width: 100%;
-  appearance: none;
-  box-sizing: border-box;
-  vertical-align: middle;
-  text-decoration: none;
   color: var(--almost-black);
 }
 
