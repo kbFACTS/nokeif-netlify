@@ -18,7 +18,7 @@ import Linkbox from "./linkbox";
 const Home = () => {
     return (
         <div className="home">
-            <div className="content-1 roundcontainer shadow">
+            <div className="content-1 roundcontainer">
                 <img alt="" src="nokeif-logo.svg" className="home-img"></img>
                 <div className="pdb">
                     <Linkbox icon="spotify.png" id="spotify" title="Spotify" url="https://open.spotify.com/artist/3AoiNh85pj8qfchXmgeh43?si=ziPF19-ZT2mLHHpfU2t-Pw" />
